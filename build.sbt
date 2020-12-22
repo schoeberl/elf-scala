@@ -14,7 +14,7 @@ organization := "io.github.schoeberl"
 homepage := Some(url("https://github.com/schoeberl/elf-scala"))
 scmInfo := Some(ScmInfo(url("https://github.com/schoeberl/elf-scala"), "git@github.com:schoeberl/elf-scala.git"))
 developers := List(Developer("schoeberl", "schoeberl", "martin@jopdesign.com", url("https://github.com/schoeberl")))
-//licenses += ("Apache-2.0", url("http://www.apache.org/licenses/LICENSE-2.0"))
+licenses += ("BSD-2-Clause", url("https://opensource.org/licenses/BSD-2-Clause"))
 publishMavenStyle := true
 
 // disable publishw ith scala version, otherwise artifact name will include scala version 
